@@ -11,6 +11,7 @@ function App() {
   const favMovies = useSelector(store => store.favMovies); //bu movie'lerin id'lerini dönen bir array
   const defaultMovies = useSelector(store => store.defaultMovies)
 
+
   const currentMovieId = useSelector(store => store.currentMovieId); //egemenlerden gelecek
   const dispatcher = useDispatch();
 
@@ -25,6 +26,7 @@ function App() {
   useEffect(() => {
     dispatcher(getProductsActionCreator());
     dispatcher(getMoviesActionCreator());
+  
   }, []);
 
   return (
