@@ -1,6 +1,7 @@
 # Redux Modül Projesi: Film İzleme Listesi
 
-Bu proje, öğrendiğiniz redux kavram ve yöntemlerini uygulayacağınız, logger middlewarei ile redux adımlarını takip edeceğiniz küçük bir film izleme listesi oluşturma projesidir.
+<img width="974" alt="image" src="https://github.com/erkannebil/redux-watchlist/assets/80630016/215b0b1b-1c19-4c11-9448-78c2de1157a5">
+<img width="773" alt="image" src="https://github.com/erkannebil/redux-watchlist/assets/80630016/0bd63325-8c6d-4402-be57-69b087fc6fdd">
 
 ## Giriş
 
@@ -47,7 +48,6 @@ Proje `movies.js` dosyasında yer alan filmleri sırayla görüntüleyebildiniz 
 
 - [ ] Store ile ilgili değişiklikler yaptığınızda logger paketinin vermiş olduğu logları inceleyin.
 
-### Esnek Görevler
 
 - [ ] Filmler arasında gezinmeyi kolaylaştırmak için bir "Önceki", bir de "Başa dön" butonu ekleyin. Bunları görüntülemeniz gereken yerleri bulun ve ekleyin.
 
